@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.tc.autotest.mapper.ConfigInfoMapper">
+
+    <!--<select id="countByUsername" resultType="java.lang.Integer">-->
+    <!--SELECT count(1) FROM User WHERE name = #{username}-->
+    <!--</select>-->
+
+    <select id="getTestConfigInfo" resultType="org.tc.autotest.model.domain.TestConfigInfo">
+        SELECT * FROM t_autotest_cur_config
+    </select>
+</mapper>
