@@ -7,6 +7,11 @@ import javax.annotation.Resource;
 import java.util.HashSet;
 import java.util.Set;
 
+
+/**
+ *  接口测试控制器
+ *
+ */
 @RestController
 @RequestMapping(value = "/usc/debug")
 public class TestController {

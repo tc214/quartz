@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * 自动测试配置参数
+ * 自动测试参数配置器
  */
 
 @RestController

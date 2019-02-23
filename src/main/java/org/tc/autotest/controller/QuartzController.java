@@ -15,6 +15,13 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.PostConstruct;
 import java.util.List;
 
+
+/**
+ *  定时任务控制器
+ *
+ */
+
+
 @RestController
 @RequestMapping("/quartz")
 public class QuartzController {
@@ -143,6 +150,7 @@ public class QuartzController {
 
     /**
      * 重新启动所有的job
+     * todo
      */
     private void reStartAllJobs() throws SchedulerException {
 

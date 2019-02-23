@@ -8,7 +8,7 @@ import org.quartz.JobExecutionException;
 
 
 /**
- * 安装-》卸载
+ * 任务一
  * @DisallowConcurrentExecution : 不允许并发执行
  * @Component
  */

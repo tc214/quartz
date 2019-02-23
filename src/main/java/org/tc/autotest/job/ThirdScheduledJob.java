@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 
 /**
- * 安装-》启动-》停止-》卸载
+ * 任务三
  */
 @DisallowConcurrentExecution
 @Component
